@@ -31,6 +31,33 @@
     
     
     <entry>
+      <title>CloudFlare支持的HTTP/HTTPS代理端口</title>
+      <link href="/2022/07/17/CloudFlare%E6%94%AF%E6%8C%81%E7%9A%84HTTP-HTTPS%E4%BB%A3%E7%90%86%E7%AB%AF%E5%8F%A3/"/>
+      <url>/2022/07/17/CloudFlare%E6%94%AF%E6%8C%81%E7%9A%84HTTP-HTTPS%E4%BB%A3%E7%90%86%E7%AB%AF%E5%8F%A3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CloudFlare支持的HTTP-x2F-HTTPS代理端口"><a href="#CloudFlare支持的HTTP-x2F-HTTPS代理端口" class="headerlink" title="CloudFlare支持的HTTP&#x2F;HTTPS代理端口"></a>CloudFlare支持的HTTP&#x2F;HTTPS代理端口</h1><p><a href="https://www.cloudflare.com/zh-cn/">CloudFlare</a>可代理通过下列 HTTP&#x2F;HTTPS 端口的流量。</p><blockquote><p>如果您的流量位于不同的端口上，则可将其作为只使用DNS的记录添加到您的 Cloudflare DNS 页面，(灰色云 &#x3D; 不使用 Cloudflare 代理或缓存)。</p></blockquote><h2 id="Cloudflare支持的-HTTP-端口为"><a href="#Cloudflare支持的-HTTP-端口为" class="headerlink" title="Cloudflare支持的 HTTP 端口为:"></a>Cloudflare支持的 HTTP 端口为:</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">80</span><br><span class="line"> </span><br><span class="line">8080</span><br><span class="line"> </span><br><span class="line">8880</span><br><span class="line"> </span><br><span class="line">2052</span><br><span class="line"> </span><br><span class="line">2082</span><br><span class="line"> </span><br><span class="line">2086</span><br><span class="line"> </span><br><span class="line">2095</span><br></pre></td></tr></table></figure><h2 id="Cloudflare-支持的-HTTPs-端口为"><a href="#Cloudflare-支持的-HTTPs-端口为" class="headerlink" title="Cloudflare 支持的 HTTPs 端口为:"></a>Cloudflare 支持的 HTTPs 端口为:</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">443</span><br><span class="line"> </span><br><span class="line">2053</span><br><span class="line"> </span><br><span class="line">2083</span><br><span class="line"> </span><br><span class="line">2087</span><br><span class="line"> </span><br><span class="line">2096</span><br><span class="line"> </span><br><span class="line">8443</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> CloudFlare </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CloudFlare </tag>
+            
+            <tag> 端口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MarkDown教程</title>
       <link href="/2022/07/15/MarkDown%E6%95%99%E7%A8%8B/"/>
       <url>/2022/07/15/MarkDown%E6%95%99%E7%A8%8B/</url>
