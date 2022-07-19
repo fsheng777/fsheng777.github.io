@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 优选IP </category>
+          <category> CloudFlare </category>
           
       </categories>
       
@@ -52,6 +52,8 @@
       
       
         <tags>
+            
+            <tag> 科学上网 </tag>
             
             <tag> 节点 </tag>
             
