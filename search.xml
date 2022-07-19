@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>使用cloudflarespeedtest优选出适合自己的CF IP</title>
+      <link href="/2022/07/19/IP/"/>
+      <url>/2022/07/19/IP/</url>
+      
+        <content type="html"><![CDATA[<p>在我们使用套了CloudFlare CDN节点时，会速度很慢。那是因为CloudFlare分配的CF IP大部分对中国用户不太友好，所以我们需要使用一个工具来优选优选适合自己的CF IP</p><p>本文使用的是<a href="https://github.com/XIU2/CloudflareSpeedTest">XIU2&#x2F;CloudflareSpeedTest</a>的项目，感谢原作者的付出.</p><h1 id="步骤方法"><a href="#步骤方法" class="headerlink" title="步骤方法"></a>步骤方法</h1><h3 id="1-打开项目主页，点击Releases"><a href="#1-打开项目主页，点击Releases" class="headerlink" title="1. 打开项目主页，点击Releases"></a>1. 打开<a href="https://github.com/XIU2/CloudflareSpeedTest">项目主页</a>，点击<a href="https://github.com/XIU2/CloudflareSpeedTest/releases">Releases</a></h3><h3 id="2-根据你自己的电脑选择对应的版本"><a href="#2-根据你自己的电脑选择对应的版本" class="headerlink" title="2. 根据你自己的电脑选择对应的版本"></a>2. 根据你自己的电脑选择对应的版本</h3><p><img src="https://s2.loli.net/2022/07/19/sANIQHRbj8EUCu2.png" alt="CloudflareSpeedTest"></p><h3 id="3-解压，打开“CloudFlareST-exe”"><a href="#3-解压，打开“CloudFlareST-exe”" class="headerlink" title="3. 解压，打开“CloudFlareST.exe”"></a>3. 解压，打开“CloudFlareST.exe”</h3><p><img src="https://s2.loli.net/2022/07/19/JMYXa9LinesPvS2.png" alt="5GA_`Q_@`KI_GD___SHWTT7.png"></p><h3 id="4-等待优选IP"><a href="#4-等待优选IP" class="headerlink" title="4. 等待优选IP"></a>4. 等待优选IP</h3><h3 id="5-优选IP完成，IP将会按照速度由上到下排序，复制出最快的"><a href="#5-优选IP完成，IP将会按照速度由上到下排序，复制出最快的" class="headerlink" title="5. 优选IP完成，IP将会按照速度由上到下排序，复制出最快的."></a>5. 优选IP完成，IP将会按照速度由上到下排序，复制出最快的.</h3><p><img src="https://s2.loli.net/2022/07/19/X29y1mwZOdTrgi6.png" alt="_HI6R__U1_7_88G8HLUUCSJ.png"><br><img src="https://s2.loli.net/2022/07/19/qJcYrAxSGkb62E1.png" alt="X__@J5AX9FXA`F_@F`PSKW2.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 优选IP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CloudFlare </tag>
+            
+            <tag> 优选IP </tag>
+            
+            <tag> CDN </tag>
+            
+            <tag> 科学上网 </tag>
+            
+            <tag> 节点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>科学上网节点</title>
       <link href="/2022/07/18/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9/"/>
       <url>/2022/07/18/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9/</url>
