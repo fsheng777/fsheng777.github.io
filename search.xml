@@ -8,7 +8,7 @@
       <link href="/2022/07/19/VPS%E4%BD%BF%E7%94%A8%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BA%E8%8A%82%E7%82%B9/"/>
       <url>/2022/07/19/VPS%E4%BD%BF%E7%94%A8%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BA%E8%8A%82%E7%82%B9/</url>
       
-        <content type="html"><![CDATA[<p>撸VPS就是为了满足自己的科学上网的需求。在我们的实际应用中，我们有许多种可以搭建节点的方式。本文使用一键脚本的方式来搭建科学上网节点。<br>这篇文章就以Woiden的IPv6 VPS为例，教大家如何来配置节点。</p><h1 id="科学上网节点搭建"><a href="#科学上网节点搭建" class="headerlink" title="科学上网节点搭建"></a>科学上网节点搭建</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul><li>一台VPS</li><li><a href="https://woiden.id/">woiden官网</a></li></ul><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/Jrohy/multi-v2ray">Jrohy的项目</a>,感谢原作者的付出.</p><h2 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h2><p>复制粘贴以下代码，并运行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &lt;(curl -sL https://multi.netlify.app/v2ray.sh) --zh</span><br></pre></td></tr></table></figure><ul><li>查看自己的可用端口<br><img src="https://s2.loli.net/2022/07/19/grpaQZ2NdRVquCj.png" alt="9_7QJUU@_PY4G2@87I__YCW.png"></li><li>等待安装完成<br><img src="https://s2.loli.net/2022/07/19/mMBDlsZcHSEWagj.jpg" alt="QQ图片20220719184742.jpg"></li><li>搭建完成，完成后输入v2ray来修改配置，把原来的端口修改成woiden转发的可用端口。<br><img src="https://img.gejiba.com/images/386cb54e6a55084c1f0c2bd4b0649431.png" alt="386cb54e6a55084c1f0c2bd4b0649431.png"><br><img src="https://s2.loli.net/2022/07/19/kbfrYdoHyZL9F5I.png" alt="Y4YG_M_7U10YY_0QQD_UU5K.png"></li><li>可以看到搭建的节点是可以正常使用的。<br><img src="https://s2.loli.net/2022/07/19/fdDN4mGFWwLQoR2.png" alt="3_F3_3S@BNBZMDMVSYNF6_M.png"><br><img src="https://img.gejiba.com/images/a58f52ddd1e3e7d713341e6884d0c177.gif" alt="a58f52ddd1e3e7d713341e6884d0c177.gif"></li></ul>]]></content>
+        <content type="html"><![CDATA[<p>撸VPS就是为了满足自己的科学上网的需求。在我们的实际应用中，我们有许多种可以搭建节点的方式。本文使用一键脚本的方式来搭建科学上网节点。<br>这篇文章就以Woiden的IPv6 VPS为例，教大家如何来配置节点。</p><h1 id="科学上网节点搭建"><a href="#科学上网节点搭建" class="headerlink" title="科学上网节点搭建"></a>科学上网节点搭建</h1><h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul><li>一台VPS</li><li><a href="https://woiden.id/">woiden官网</a></li></ul><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p><a href="https://github.com/Jrohy/multi-v2ray">Jrohy的项目</a>,感谢原作者的付出.</p><h2 id="安装部署"><a href="#安装部署" class="headerlink" title="安装部署"></a>安装部署</h2><p>复制粘贴以下代码，并运行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &lt;(curl -sL https://multi.netlify.app/v2ray.sh) --zh</span><br></pre></td></tr></table></figure><h4 id="查看自己的可用端口"><a href="#查看自己的可用端口" class="headerlink" title="查看自己的可用端口"></a>查看自己的可用端口</h4><p><img src="https://s2.loli.net/2022/07/19/grpaQZ2NdRVquCj.png" alt="9_7QJUU@_PY4G2@87I__YCW.png"></p><h4 id="等待安装完成"><a href="#等待安装完成" class="headerlink" title="等待安装完成"></a>等待安装完成</h4><p><img src="https://s2.loli.net/2022/07/19/mMBDlsZcHSEWagj.jpg" alt="QQ图片20220719184742.jpg"></p><h4 id="搭建完成，完成后输入v2ray来修改配置，把原来的端口修改成woiden转发的可用端口。"><a href="#搭建完成，完成后输入v2ray来修改配置，把原来的端口修改成woiden转发的可用端口。" class="headerlink" title="搭建完成，完成后输入v2ray来修改配置，把原来的端口修改成woiden转发的可用端口。"></a>搭建完成，完成后输入v2ray来修改配置，把原来的端口修改成woiden转发的可用端口。</h4><p><img src="https://img.gejiba.com/images/386cb54e6a55084c1f0c2bd4b0649431.png" alt="386cb54e6a55084c1f0c2bd4b0649431.png"><br><img src="https://s2.loli.net/2022/07/19/kbfrYdoHyZL9F5I.png" alt="Y4YG_M_7U10YY_0QQD_UU5K.png"></p><h4 id="可以看到搭建的节点是可以正常使用的。"><a href="#可以看到搭建的节点是可以正常使用的。" class="headerlink" title="可以看到搭建的节点是可以正常使用的。"></a>可以看到搭建的节点是可以正常使用的。</h4><p><img src="https://s2.loli.net/2022/07/19/fdDN4mGFWwLQoR2.png" alt="3_F3_3S@BNBZMDMVSYNF6_M.png"><br><img src="https://img.gejiba.com/images/a58f52ddd1e3e7d713341e6884d0c177.gif" alt="a58f52ddd1e3e7d713341e6884d0c177.gif"></p>]]></content>
       
       
       <categories>
@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 科学上网 </tag>
-            
             <tag> 节点 </tag>
+            
+            <tag> 科学上网 </tag>
             
             <tag> IPv4 </tag>
             
@@ -53,15 +53,15 @@
       
         <tags>
             
-            <tag> 优选IP </tag>
-            
             <tag> CloudFlare </tag>
             
-            <tag> CDN </tag>
+            <tag> 节点 </tag>
             
             <tag> 科学上网 </tag>
             
-            <tag> 节点 </tag>
+            <tag> 优选IP </tag>
+            
+            <tag> CDN </tag>
             
         </tags>
       
@@ -86,9 +86,9 @@
       
         <tags>
             
-            <tag> 科学上网 </tag>
-            
             <tag> 节点 </tag>
+            
+            <tag> 科学上网 </tag>
             
             <tag> 免费 </tag>
             
