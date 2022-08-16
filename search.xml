@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Nginx</title>
+      <link href="/2022/08/16/nginx/"/>
+      <url>/2022/08/16/nginx/</url>
+      
+        <content type="html"><![CDATA[<h2 id="linux下安装上传工具"><a href="#linux下安装上传工具" class="headerlink" title="linux下安装上传工具"></a>linux下安装上传工具</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install lrzsz</span><br></pre></td></tr></table></figure><h2 id="nginx需要安装的依赖"><a href="#nginx需要安装的依赖" class="headerlink" title="nginx需要安装的依赖"></a>nginx需要安装的依赖</h2><p>一键安装四个依赖</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">yum</span> -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel</span><br></pre></td></tr></table></figure><h2 id="安装nginx"><a href="#安装nginx" class="headerlink" title="安装nginx"></a>安装nginx</h2><p>1.官网下载安装包<a href="http://nginx.org/"></a>  <a href="http://nginx.org/">http://nginx.org</a><br>2.解压缩 nginx-xx.tar.gz包</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">tar</span> -zxvf nginx-xx.tar.gz</span><br></pre></td></tr></table></figure><p>3.进入解压目录，执行 .&#x2F;configure (usr&#x2F;local&#x2F;nginx&#x2F;….)<br>4.执行 make &amp;&amp; make install </p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">make</span> &amp;&amp; make install </span><br></pre></td></tr></table></figure><h2 id="端口的开放和查看"><a href="#端口的开放和查看" class="headerlink" title="端口的开放和查看"></a>端口的开放和查看</h2><p>linux查看开放的端口号</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd -llist-all</span><br></pre></td></tr></table></figure><p>设置开放的端口号</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure><p>重启防火墙</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure><h2 id="nginx常用命令"><a href="#nginx常用命令" class="headerlink" title="nginx常用命令"></a>nginx常用命令</h2><p>进入 &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin<br>查看nginx的版本号</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./<span class="attribute">nginx</span> -v</span><br></pre></td></tr></table></figure><p>停止nginx的命令</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./<span class="attribute">nginx</span> -s stop</span><br></pre></td></tr></table></figure><p>启动nginx</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./nginx</span><br></pre></td></tr></table></figure><p>重新加载nginx</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./<span class="attribute">nginx</span> -s reload</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/07/18/QjXiOGD493h1IKg.gif"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nginx </tag>
+            
+            <tag> nginx安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>账号分享</title>
       <link href="/2022/08/04/jc%E8%B4%A6%E5%8F%B7%E5%88%86%E4%BA%AB/"/>
       <url>/2022/08/04/jc%E8%B4%A6%E5%8F%B7%E5%88%86%E4%BA%AB/</url>
