@@ -8,7 +8,7 @@
       <link href="/2022/10/26/BBR/"/>
       <url>/2022/10/26/BBR/</url>
       
-        <content type="html"><![CDATA[<h4 id="1"><a href="#1" class="headerlink" title="1"></a>1</h4><p>BBR命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh</span><br></pre></td></tr></table></figure><h4 id="2"><a href="#2" class="headerlink" title="2"></a>2</h4><p>开启原版BBR,点击4开启原版BBR，即可，系统自带BBR的我们只需要开启它。</p>]]></content>
+        <content type="html"><![CDATA[<p>BBR命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh</span><br></pre></td></tr></table></figure><p>开启原版BBR,点击4开启原版BBR，即可，系统自带BBR的我们只需要开启它。</p>]]></content>
       
       
       <categories>
@@ -70,9 +70,9 @@
       
         <tags>
             
-            <tag> 节点 </tag>
-            
             <tag> 科学上网 </tag>
+            
+            <tag> 节点 </tag>
             
         </tags>
       
@@ -97,15 +97,15 @@
       
         <tags>
             
+            <tag> 优选IP </tag>
+            
             <tag> CloudFlare </tag>
             
-            <tag> 节点 </tag>
+            <tag> CDN </tag>
             
             <tag> 科学上网 </tag>
             
-            <tag> 优选IP </tag>
-            
-            <tag> CDN </tag>
+            <tag> 节点 </tag>
             
         </tags>
       
@@ -130,9 +130,9 @@
       
         <tags>
             
-            <tag> 节点 </tag>
-            
             <tag> 科学上网 </tag>
+            
+            <tag> 节点 </tag>
             
         </tags>
       
