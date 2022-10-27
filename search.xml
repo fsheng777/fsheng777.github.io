@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Ubuntu/Debian</title>
+      <link href="/2022/10/27/%E8%84%9A%E6%9C%AC/"/>
+      <url>/2022/10/27/%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h4 id="Ubuntu-x2F-Debian"><a href="#Ubuntu-x2F-Debian" class="headerlink" title="Ubuntu&#x2F;Debian"></a>Ubuntu&#x2F;Debian</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp;  apt upgrade</span><br></pre></td></tr></table></figure><h4 id="warp"><a href="#warp" class="headerlink" title="warp"></a>warp</h4><p>首次运行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh &amp;&amp; bash menu.sh [option] [lisence]</span><br></pre></td></tr></table></figure><p>再次运行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">warp [option] [lisence]</span><br></pre></td></tr></table></figure><h5 id="x-ui"><a href="#x-ui" class="headerlink" title="x-ui"></a>x-ui</h5><p>安装&amp;升级</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 脚本 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 脚本搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>BBR加速</title>
       <link href="/2022/10/26/BBR/"/>
       <url>/2022/10/26/BBR/</url>
@@ -70,9 +95,9 @@
       
         <tags>
             
-            <tag> 节点 </tag>
-            
             <tag> 科学上网 </tag>
+            
+            <tag> 节点 </tag>
             
         </tags>
       
@@ -97,15 +122,15 @@
       
         <tags>
             
+            <tag> 优选IP </tag>
+            
             <tag> CloudFlare </tag>
             
-            <tag> 节点 </tag>
+            <tag> CDN </tag>
             
             <tag> 科学上网 </tag>
             
-            <tag> 优选IP </tag>
-            
-            <tag> CDN </tag>
+            <tag> 节点 </tag>
             
         </tags>
       
@@ -130,9 +155,9 @@
       
         <tags>
             
-            <tag> 节点 </tag>
-            
             <tag> 科学上网 </tag>
+            
+            <tag> 节点 </tag>
             
         </tags>
       
