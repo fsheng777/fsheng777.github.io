@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>搭建常用脚本</title>
+      <link href="/2023/01/03/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC/"/>
+      <url>/2023/01/03/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h4 id="Ubuntu-x2F-Debian升级"><a href="#Ubuntu-x2F-Debian升级" class="headerlink" title="Ubuntu&#x2F;Debian升级"></a>Ubuntu&#x2F;Debian升级</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp; apt upgrade</span><br></pre></td></tr></table></figure><h4 id="Ubuntu-x2F-Debian卸载apache2"><a href="#Ubuntu-x2F-Debian卸载apache2" class="headerlink" title="Ubuntu&#x2F;Debian卸载apache2"></a>Ubuntu&#x2F;Debian卸载apache2</h4><p>Debian</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get --purge remove apache2.2</span><br><span class="line">apt-get --purge remove apache2-doc</span><br><span class="line">apt-get --purge remove apache2-utils</span><br></pre></td></tr></table></figure><p>Ubuntu</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get --purge remove apache2</span><br><span class="line">apt-get --purge remove apache2.2-common</span><br><span class="line">apt-get autoremove</span><br></pre></td></tr></table></figure><h4 id="warp-F佬"><a href="#warp-F佬" class="headerlink" title="warp-F佬"></a>warp-F佬</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N https://raw.githubusercontent.com/fscarmen/warp/main/menu.sh &amp;&amp; bash menu.sh [option] [lisence]</span><br><span class="line"></span><br><span class="line">warp [option] [lisence]</span><br></pre></td></tr></table></figure><h4 id="warp-go-F佬"><a href="#warp-go-F佬" class="headerlink" title="warp-go-F佬"></a>warp-go-F佬</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N https://raw.githubusercontent.com/fscarmen/warp/main/warp-go.sh &amp;&amp; bash warp-go.sh [option] [lisence]</span><br><span class="line"></span><br><span class="line">warp-go [option] [lisence]</span><br></pre></td></tr></table></figure><h4 id="CFwarp-yg"><a href="#CFwarp-yg" class="headerlink" title="CFwarp-yg"></a>CFwarp-yg</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh &amp;&amp; bash CFwarp.sh</span><br><span class="line"></span><br><span class="line">cf</span><br></pre></td></tr></table></figure><h4 id="x-ui"><a href="#x-ui" class="headerlink" title="x-ui"></a>x-ui</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)</span><br></pre></td></tr></table></figure><h4 id="naiveproxy-yg"><a href="#naiveproxy-yg" class="headerlink" title="naiveproxy-yg"></a>naiveproxy-yg</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -N https://gitlab.com/rwkgyg/naiveproxy-yg/raw/main/naiveproxy.sh &amp;&amp; bash naiveproxy.sh</span><br><span class="line"></span><br><span class="line">na</span><br></pre></td></tr></table></figure><p><img src="https://img.gejiba.com/images/a58f52ddd1e3e7d713341e6884d0c177.gif"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 脚本 </tag>
+            
+            <tag> 搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ubuntu/Debian</title>
       <link href="/2022/10/27/%E8%84%9A%E6%9C%AC/"/>
       <url>/2022/10/27/%E8%84%9A%E6%9C%AC/</url>
